@@ -1,0 +1,15 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+lime
+lightgbm
+ydata-profiling
+lazypredict
+shap
+streamlit
+joblib
+requests==2.28.1
+jsonify
+plotly
