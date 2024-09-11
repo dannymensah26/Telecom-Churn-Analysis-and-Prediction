@@ -40,6 +40,18 @@ The following tasks were performed in the data preprocessing:
 - Split the data into train, validation, and test sets.
 - Preprocessed the data using a preprocessing function that performs one-hot encoding for categorical features and standardization for numerical features.
 
+## Model Training and Experimentation
+#### Lazy Predict : 
+First, LazyClassifier from the lazypredict package is used to quickly train and test multiple machine learning models with default hyperparameters on the preprocessed training data.
+
+### Hyperparameter Tuning
+After identifying some of the top-performing models, I performed hyperparameter tuning on SVC, RidgeClassifierCV, Logistic Regression, AdaBoost and XGBoost using GridSearchCV
+After finding the best hyperparameters for each model, I trained the models again using these hyperparameters, and then evaluated their performance on the validation set using various metrics such as accuracy, precision, recall, F1-score and ROC AUC score.
+
+
+
+
+
 
 This project is a machine learning project focusing on customer churn prediction. The project consists of 4 main steps:
 
