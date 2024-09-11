@@ -1,8 +1,3 @@
-
-
-
-
-
 # Telco Customer Churn Project
 
 ## Table of Contents
@@ -12,6 +7,38 @@
     Exploratory Data Analysis
     Data Preprocessing
     Machine Learning
+
+## Libraries Used
+
+    pandas
+    numpy
+    seaborn
+    matplotlib
+    plotly
+    shap
+    scikit-learn
+    xgboost
+
+## Load Data
+
+The dataset used for this project is the Telco-Customer-Churn.csv file. This dataset was source from kaggle: https://www.kaggle.com/blastchar/telco-customer-churn. It contains information about customers who have either churned or not churned. The dataset includes features such as customer demographics, account information, and services that each customer has signed up for.
+
+## Exploratory Data Analysis
+The following tasks were performed in the exploratory data analysis:
+    Checked for data types and null values.
+    Converted TotalCharges to float and filled in missing values.
+    Obtained descriptive statistics.
+    Dropped the customerID column.
+    Plotted churn rate distribution.
+
+## Data Preprocessing
+
+The following tasks were performed in the data preprocessing:
+- Dropped the customerID column. 
+- Converted TotalCharges to float and filled in missing values. 
+- Encoded the target variable Churn to numerical values. 
+- Split the data into train, validation, and test sets.
+- Preprocessed the data using a preprocessing function that performs one-hot encoding for categorical features and standardization for numerical features.
 
 
 This project is a machine learning project focusing on customer churn prediction. The project consists of 4 main steps:
