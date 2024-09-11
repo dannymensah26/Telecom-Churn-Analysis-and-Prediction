@@ -9,31 +9,6 @@ This project is a machine learning project focusing on customer churn prediction
 (You can also take a look at the Medium article that hosts all the processes of the project)
 
 
-## Project Folder Structure
-
-Telco Customer Churn Project/
-│
-├── data/
-│   ├── churn_data_regulated.parquet
-│   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│   ├── ...
-│
-├── model/
-│   └── cat_model.cbm
-│
-├── notebooks/
-│   ├── telco-customer-churn-eda.ipynb
-│   ├── telco-catboost-xgboost-shap-lime.ipynb
-│
-├── src/
-│   ├── fast-api.py
-│   ├── predict.py
-│   ├── streamlit-app.py
-│   └── train_model.py
-│
-└── Dockerfile
-└── requirements.txt
-
 ## Project Files
 
     data/: Contains the data files used for the project.
