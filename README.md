@@ -28,7 +28,7 @@ This project is a machine learning project focusing on customer churn prediction
 
     Clone the project
 
-git clone https://github.com/rolmez/Customer-Churn-Project.git
+https://github.com/dannymensah26/Telecom-Churn-Analysis-and-Prediction.git
 
     Go to the project directory
 
@@ -44,7 +44,7 @@ cd src
 
     For train model
 
-python train_model.py
+python model.py
 
     For Streamlit app
 
