@@ -1,4 +1,18 @@
-## Telco Customer Churn Project
+
+
+
+
+
+# Telco Customer Churn Project
+
+## Table of Contents
+
+    Libraries Used
+    Load Data
+    Exploratory Data Analysis
+    Data Preprocessing
+    Machine Learning
+
 
 This project is a machine learning project focusing on customer churn prediction. The project consists of 4 main steps:
 
