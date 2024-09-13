@@ -49,6 +49,20 @@ First, LazyClassifier from the lazypredict package is used to quickly train and 
 - After finding the best hyperparameters for each model, I trained the models again using these hyperparameters.
 - Then, I evaluated their performance on the validation set using various metrics such as accuracy, precision, recall, F1-score and ROC AUC score.
 
+## Results
+The best performing model was XGBoost with an accuracy of 81.92%, precision of 67.12%, recall of 52.05%, F1-score of 58.61%, and ROC-AUC of 0.816.
+
+#### SHAP Anaysis:
+SHAP analysis was performed to interpret the XGBoost model. The analysis revealed that the most important features in predicting churn were MonthlyCharges, 
+Contract_month-to-month, Tenure, and InternetService_Fiber optic.
+
+
+![mean shap](https://github.com/user-attachments/assets/c162f2ef-a010-4406-aaf9-6c66624a5298)
+![shap values](https://github.com/user-attachments/assets/88d7140c-1e68-4317-93b1-2ae96e1ec50d)
+
+
+####Feature Importances:
+![perm feature_importance](https://github.com/user-attachments/assets/fb19afef-ce33-4784-b854-dc2d993e242e)
 ## Usage
 
     Clone the project
@@ -91,11 +105,7 @@ Run the following command to push docker images to docker hub
 
 Once built, expose the docker images to the internet via cloud service like MS Azure.
 
-## Some images from the project
-![perm feature_importance](https://github.com/user-attachments/assets/fb19afef-ce33-4784-b854-dc2d993e242e)
-![mean shap](https://github.com/user-attachments/assets/c162f2ef-a010-4406-aaf9-6c66624a5298)
-![shap values](https://github.com/user-attachments/assets/88d7140c-1e68-4317-93b1-2ae96e1ec50d)
-![shap value for tenure](https://github.com/user-attachments/assets/f83326d8-0620-4368-9ac2-f6b0f79e418d)
+
 
 ## Demo of Web App
 
