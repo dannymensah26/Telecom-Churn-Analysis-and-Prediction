@@ -110,8 +110,6 @@ Once built, expose the docker images to the internet via cloud service like MS A
 
 
 
-## Demo of Web App
-
 
 
 
