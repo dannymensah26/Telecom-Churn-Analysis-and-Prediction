@@ -81,10 +81,10 @@ python model.py
 
 ## Automation (Docker)
 Run the following command to create the Docker container in the project's home folder:
-- docker build -t telco-churn .
+- docker build -t churnprediction .
 
 Run the following command to start the Docker container:
-- docker run -it telco-churn
+- docker run -it churnprediction
 
 Run the following command to push docker images to docker hub
 - docker push -d -p 8501:
