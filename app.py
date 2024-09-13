@@ -67,15 +67,16 @@ load_css()
 st.title('Telecom Customer Churn Prediction')
 
 
-# Display the image with caption
-st.image("C:\Telecom Churn Analysis and Prediction\data.JPG", 
-         caption="Welcome to the Churn Prediction App", 
-         use_column_width=True)
-
-# Display additional instructions below the image
 st.markdown("""
-**Use the form below to enter customer details and predict the probability of churn. Analyze data effectively with our model.**
-""")
+<div class="card card-custom mb-4"> 
+  <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="Woman holding magnetic card">
+  <div class="card-body">
+    <h5 class="card-title">Welcome to the Churn Prediction App</h5>
+    <p class="card-text">Use the form below to enter customer details and predict the probability of churn. Analyze data effectively with our model.</p>
+  </div>
+</div>
+""", unsafe_allow_html=True)
+
 
 
 with st.form(key='input_form', clear_on_submit=True):
