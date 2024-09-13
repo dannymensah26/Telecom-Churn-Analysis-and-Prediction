@@ -68,7 +68,7 @@ st.title('Telecom Customer Churn Prediction')
 
 
 # Display the image with caption
-st.image("data.JPG", 
+st.image("C:\Telecom Churn Analysis and Prediction\data.JPG", 
          caption="Welcome to the Churn Prediction App", 
          use_column_width=True)
 
