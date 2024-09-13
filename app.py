@@ -64,18 +64,18 @@ def load_css():
 load_css()
 
 # Create Streamlit form
-st.title('Telco Customer Churn Prediction')
+st.title('Telecom Customer Churn Prediction')
 
-# Display an image with Bootstrap styling
+
+# Display the image with caption
+st.image("C:/Telecom Churn Analysis and Prediction/data.JPG", 
+         caption="Welcome to the Churn Prediction App", 
+         use_column_width=True)
+
+# Display additional instructions below the image
 st.markdown("""
-<div class="card card-custom mb-4">
-  <img src="https://images.unsplash.com/photo-1534548789196-5dd0b12eaf16" class="card-img-top" alt="Data Analysis">
-  <div class="card-body">
-    <h5 class="card-title">Welcome to the Churn Prediction App</h5>
-    <p class="card-text">Use the form below to enter customer details and predict the probability of churn. Analyze data effectively with our model.</p>
-  </div>
-</div>
-""", unsafe_allow_html=True)
+**Use the form below to enter customer details and predict the probability of churn. Analyze data effectively with our model.**
+""")
 
 
 with st.form(key='input_form', clear_on_submit=True):
