@@ -66,6 +66,7 @@ We may want to take an overview of which features are decisive in the model’s 
 ## Demo of Streamlit API
 Access the demo of the Telco Churn Prediction App using https://telcochurnprediction.streamlit.app/
 
+https://github.com/user-attachments/assets/072f3a5c-5daa-4ea7-9a21-ecc9cb5481fa
 
 
 ## Usage
