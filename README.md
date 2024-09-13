@@ -91,5 +91,10 @@ Run the following command to push docker images to docker hub
 
 Once built, expose the docker images to the internet via cloud service like MS Azure.
 
+## Some images from the project
+![shap values](https://github.com/user-attachments/assets/88d7140c-1e68-4317-93b1-2ae96e1ec50d)
+
+
+
 
 
