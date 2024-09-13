@@ -77,15 +77,11 @@ https://github.com/dannymensah26/Telecom-Churn-Analysis-and-Prediction.git
 
     Go to the project directory
 
-cd Customer-Churn-Project
+cd Telecom-Churn-Analysis-and-Prediction 
 
     Install dependencies
 
 pip install requirements.txt
-
-    Go to the src directory
-
-cd src
 
     For train model
 
