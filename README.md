@@ -56,13 +56,16 @@ The best performing model was XGBoost with an accuracy of 81.92%, precision of 6
 SHAP analysis was performed to interpret the XGBoost model. The analysis revealed that the most important features in predicting churn were MonthlyCharges, 
 Contract_month-to-month, Tenure, and InternetService_Fiber optic.
 
-
-![mean shap](https://github.com/user-attachments/assets/c162f2ef-a010-4406-aaf9-6c66624a5298)
-![shap values](https://github.com/user-attachments/assets/88d7140c-1e68-4317-93b1-2ae96e1ec50d)
+![SHAP analysis](https://github.com/user-attachments/assets/7869daa3-9218-4984-805f-6e8f164ab568)
 
 
-#### Feature Importances:
-![perm feature_importance](https://github.com/user-attachments/assets/fb19afef-ce33-4784-b854-dc2d993e242e)
+#### Feature Importances: 
+We may want to take an overview of which features are decisive in the model’s decision-making process.
+![feature_importance](https://github.com/user-attachments/assets/203e3bfa-0311-4de1-8e16-27edf10c1a66)
+
+## Demo of Streamlit API
+
+
 ## Usage
 
     Clone the project
