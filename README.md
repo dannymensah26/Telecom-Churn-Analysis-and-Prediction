@@ -64,6 +64,8 @@ We may want to take an overview of which features are decisive in the model’s 
 ![feature_importance](https://github.com/user-attachments/assets/203e3bfa-0311-4de1-8e16-27edf10c1a66)
 
 ## Demo of Streamlit API
+Access the demo of the Telco Churn Prediction App using https://telcochurnprediction.streamlit.app/
+
 
 
 ## Usage
